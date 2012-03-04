@@ -1,0 +1,12 @@
+{
+	"name": "libzfs",
+	"version": "0.1",
+	"description": "Solaris libzfs bindings",
+	"homepage": "https://github.com/mysysadmin/node-libzfs",
+	"author": "Peer Dampmann",
+	"engines": { "node": ">=0.6" },
+	"main": "./build/Release/libzfs",
+	"scripts": {
+		"install": "node-waf configure build"
+	}
+}

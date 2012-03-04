@@ -1,0 +1,32 @@
+
+node-libzfs
+
+node-libzfs is a Node.js addon that interfaces to libzfs allowing node programs to
+read zpool/zfs properties.
+
+Status
+
+Currently it only allows read-only mode.
+It still needs some love in order to provide
+more features.
+
+Platform
+
+This should work on Solaris and derivatives, maybe FreeBSD.
+
+Installation/Configuration
+
+% node-waf configure
+% node-waf build
+
+API
+
+Work is in progress.
+
+EXAMPLES
+
+Try it with ./test.js
+It is similar to "zpool list"
+
+Work is in progress.
+
